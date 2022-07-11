@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.google.com/noto/specimen/Noto+Sans+KR" rel="stylesheet">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+
+    }
+
+    body {
+        font-family: 'Noto Sans Korean', sans-serif;
+    }
+
+    .container {
+        width: 900px;
+        border: 3px solid purple;
+        margin: 33px auto;
+        background-color: sandybrown;
+
+    }
+
+    .item {
+        background-color: antiquewhite;
+        border: 3px solid grey;
+        margin: 12px 3px;
+        padding: 12px 10px;
+
+    }
+
+    #fruits {
+        float: left;
+        width: 48%;
+    }
+
+    #computer {
+        float: right;
+        width: 48%;
+
+    }
+
+    #stationary {
+        clear: right;
+        /* float: left; */
+        width: 100%;
+
+    }
+
+    p,
+    h3 {
+        text-align: justify;
+
+    }
+
+    h1 {
+        margin: 23px auto;
+        width: 455px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store </h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
+                libero aut accusamus ea nostrum dolorem corrupti distinctio minima iusto eum numquam, tempora a
+                deleniti, maiores molestiae exercitationem sapiente sit mollitia. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id iure illum necessitatibus sunt praesentium iste placeat maxime recusandae, est
+                atque, minima quaerat optio ipsa, sequi nisi omnis doloribus ratione cum aliquam neque dignissimos. Hic.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
+                libero aut accusamus ea nostrum dolorem corrupti distinctio minima iusto eum numquam, tempora a
+                deleniti, maiores molestiae exercitationem sapiente sit mollitia. Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Velit ipsam nihil molestias eveniet esse accusamus nobis aperiam odit
+                porro. Iusto dolorum a minus animi doloribus, voluptatum recusandae excepturi, iste deserunt, doloremque
+                placeat inventore? Voluptate.</p>
+        </div>
+        <div id="Stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium, libero aut accusamus ea nostrum dolorem corrupti distinctio minima iusto eum
+                numquam, tempora a deleniti, maiores molestiae exercitationem sapiente sit mollitia.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
